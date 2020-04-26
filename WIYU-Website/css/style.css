@@ -1,0 +1,22 @@
+.intro-text{
+    color: whitesmoke;
+    margin-top: 12rem;
+    background: darkcyan;
+    font-size: 60px;
+    margin-left: -7rem ;
+}
+
+.navbar-home{
+    padding-left: 4rem;
+}
+
+#post-a-job-intro{
+    font-size: 40px;
+text-align: center;
+}
+
+/*TODO image not centering*/
+.center {
+    margin: 10px auto 20px;
+    display: block;
+}

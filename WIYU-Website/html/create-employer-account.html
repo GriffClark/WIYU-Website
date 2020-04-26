@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="icon" href="../media/logo.png">
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="../css/bootstrap.css">
+
+    <!-- my CSS stylesheet -->
+    <link rel="stylesheet" href="../css/style.css">
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="../js/bootstrap.js"></script>
+    <meta charset="UTF-8">
+    <title>Create Account</title>
+</head>
+<body>
+<img src="../media/logo.png" class="center">
+
+
+<div class="container">
+
+    <form>
+        <div class="form-group">
+            <label for="employerName">Company Name</label>
+            <input type="text" class="form-control" id="employerName" placeholder="Gobi Technologies">
+        </div>
+        <div class="form-group">
+            <label for="employerEmail">Email</label>
+            <input type="email" class="form-control" id="employerEmail" placeholder="name@gobitech.org">
+        </div>
+        <div class="form-group">
+            <label for="employerPassword">Password</label>
+            <input type="password" class="form-control" id="employerPassword" placeholder="Super Secret Password">
+        </div>
+        <button type=submit class="btn btn-primary mb-2" id="post-a-job-submit-button" onclick="throwSuccessAlert()">Submit</button>
+    </form>
+</div>
+<script>
+    function throwSuccessAlert() {
+        alert("Form Successfully Submitted!")
+    }
+</script>
+
+</body>
+</html>
